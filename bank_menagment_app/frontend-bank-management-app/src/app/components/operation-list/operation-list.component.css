@@ -1,0 +1,40 @@
+.container {
+  margin: 20px;
+}
+
+h1 {
+  color: #333;
+  font-size: 24px;
+}
+
+.operation-boxes {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.operation-box {
+  width: 300px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px;
+}
+
+.operation-type {
+  font-weight: bold;
+}
+
+.operation-details {
+  margin-top: 10px;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}

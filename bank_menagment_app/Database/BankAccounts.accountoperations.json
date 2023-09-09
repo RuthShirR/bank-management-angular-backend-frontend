@@ -1,0 +1,768 @@
+[{
+  "_id": {
+    "$oid": "64aa97ae08035293b65906b4"
+  },
+  "accountNumber": "889273",
+  "type": "deposit",
+  "amount": 100,
+  "date": {
+    "$date": "2023-07-09T11:19:10.606Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64aa988108035293b65906b7"
+  },
+  "accountNumber": "889273",
+  "type": "withdrawal",
+  "amount": 50,
+  "date": {
+    "$date": "2023-07-09T11:22:41.440Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64aa989408035293b65906b9"
+  },
+  "accountNumber": "889273",
+  "type": "loan",
+  "amount": 1000,
+  "date": {
+    "$date": "2023-07-09T11:23:00.077Z"
+  },
+  "interest": 5,
+  "amountOfPayments": 12,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64aa98f708035293b65906bb"
+  },
+  "accountNumber": "889286",
+  "type": "deposit",
+  "amount": 1000,
+  "date": {
+    "$date": "2023-07-09T11:24:39.730Z"
+  },
+  "interest": 5,
+  "amountOfPayments": 12,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64aa99a708035293b65906be"
+  },
+  "accountNumber": "886356",
+  "type": "deposit",
+  "amount": 100,
+  "date": {
+    "$date": "2023-07-09T11:27:35.575Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64aa9a5308035293b65906c1"
+  },
+  "accountNumber": "886356",
+  "type": "deposit",
+  "amount": 700,
+  "date": {
+    "$date": "2023-07-09T11:30:27.479Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64aaa18208035293b65906c8"
+  },
+  "accountNumber": "889286",
+  "type": "loan",
+  "amount": 5000,
+  "date": {
+    "$date": "2023-07-09T12:01:06.243Z"
+  },
+  "interest": 4,
+  "amountOfPayments": 5,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64aaa18d08035293b65906cb"
+  },
+  "accountNumber": "889286",
+  "type": "loan",
+  "amount": 5000,
+  "date": {
+    "$date": "2023-07-09T12:01:17.083Z"
+  },
+  "interest": 889286,
+  "amountOfPayments": 5,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64aaa1ad08035293b65906ce"
+  },
+  "accountNumber": "889286",
+  "type": "deposit",
+  "amount": 5000,
+  "date": {
+    "$date": "2023-07-09T12:01:49.972Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64aaa1bd08035293b65906d1"
+  },
+  "accountNumber": "889286",
+  "type": "deposit",
+  "amount": 5000,
+  "date": {
+    "$date": "2023-07-09T12:02:05.391Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64aab4ca219a78aea3959ad9"
+  },
+  "accountNumber": "889286",
+  "type": "withdrawal",
+  "amount": 50,
+  "date": {
+    "$date": "2023-07-09T13:23:22.437Z"
+  },
+  "interest": 0,
+  "amountOfPayments": 0,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64aab7bc219a78aea3959adc"
+  },
+  "accountNumber": "889286",
+  "type": "withdrawal",
+  "amount": 500,
+  "date": {
+    "$date": "2023-07-09T13:35:56.475Z"
+  },
+  "interest": 0,
+  "amountOfPayments": 0,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64aac717efdf6e5f24bf6910"
+  },
+  "accountNumber": "888345",
+  "type": "deposit",
+  "amount": 700,
+  "date": {
+    "$date": "2023-07-09T14:41:27.394Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64aace9defdf6e5f24bf6919"
+  },
+  "accountNumber": "889273",
+  "type": "withdrawal",
+  "amount": 500000,
+  "date": {
+    "$date": "2023-07-09T15:13:33.661Z"
+  },
+  "interest": 0,
+  "amountOfPayments": 0,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64aacec0efdf6e5f24bf691c"
+  },
+  "accountNumber": "889273",
+  "type": "deposit",
+  "amount": 30000,
+  "date": {
+    "$date": "2023-07-09T15:14:08.680Z"
+  },
+  "interest": 0,
+  "amountOfPayments": 0,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64aacef7efdf6e5f24bf691e"
+  },
+  "accountNumber": "889273",
+  "type": "loan",
+  "amount": 37000,
+  "date": {
+    "$date": "2023-07-09T15:15:03.899Z"
+  },
+  "interest": 0.5,
+  "amountOfPayments": 10,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64aacf8eefdf6e5f24bf6922"
+  },
+  "accountNumber": "889273",
+  "type": "deposit",
+  "amount": 300,
+  "date": {
+    "$date": "2023-07-09T15:17:34.711Z"
+  },
+  "interest": 0,
+  "amountOfPayments": 0,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64aad087efdf6e5f24bf6924"
+  },
+  "accountNumber": "889273",
+  "type": "withdrawal",
+  "amount": 3000,
+  "date": {
+    "$date": "2023-07-09T15:21:43.596Z"
+  },
+  "interest": 0,
+  "amountOfPayments": 0,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64aafb04df08e35c8c4e72e4"
+  },
+  "accountNumber": "888345",
+  "type": "deposit",
+  "amount": 700,
+  "date": {
+    "$date": "2023-07-09T18:23:00.715Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64aafb22df08e35c8c4e72e7"
+  },
+  "accountNumber": "888345",
+  "type": "deposit",
+  "amount": 20000,
+  "date": {
+    "$date": "2023-07-09T18:23:30.030Z"
+  },
+  "interest": 0,
+  "amountOfPayments": 0,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64aafda0df08e35c8c4e72ea"
+  },
+  "accountNumber": "888345",
+  "type": "deposit",
+  "amount": 0,
+  "date": {
+    "$date": "2023-07-09T18:34:08.798Z"
+  },
+  "interest": 0,
+  "amountOfPayments": 0,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64aafdb2df08e35c8c4e72ec"
+  },
+  "accountNumber": "888345",
+  "type": "deposit",
+  "amount": 300,
+  "date": {
+    "$date": "2023-07-09T18:34:26.681Z"
+  },
+  "interest": 0,
+  "amountOfPayments": 0,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64aaff3adf08e35c8c4e72ef"
+  },
+  "accountNumber": "888345",
+  "type": "withdrawal",
+  "amount": 50,
+  "date": {
+    "$date": "2023-07-09T18:40:58.756Z"
+  },
+  "interest": 0,
+  "amountOfPayments": 0,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64aaff60df08e35c8c4e72f2"
+  },
+  "accountNumber": "888345",
+  "type": "withdrawal",
+  "amount": 50,
+  "date": {
+    "$date": "2023-07-09T18:41:36.098Z"
+  },
+  "interest": 0,
+  "amountOfPayments": 0,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64aaffe2df08e35c8c4e72f4"
+  },
+  "accountNumber": "888345",
+  "type": "withdrawal",
+  "amount": 50,
+  "date": {
+    "$date": "2023-07-09T18:43:46.023Z"
+  },
+  "interest": 0,
+  "amountOfPayments": 0,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ab00badf08e35c8c4e72f6"
+  },
+  "accountNumber": "888345",
+  "type": "withdrawal",
+  "amount": 50,
+  "date": {
+    "$date": "2023-07-09T18:47:22.841Z"
+  },
+  "interest": 0,
+  "amountOfPayments": 0,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ab01b8df08e35c8c4e72f8"
+  },
+  "accountNumber": "888345",
+  "type": "withdrawal",
+  "amount": 300,
+  "date": {
+    "$date": "2023-07-09T18:51:36.333Z"
+  },
+  "interest": 0,
+  "amountOfPayments": 0,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ab0377df08e35c8c4e72fd"
+  },
+  "accountNumber": "888345",
+  "type": "loan",
+  "amount": 5000,
+  "date": {
+    "$date": "2023-07-09T18:59:03.281Z"
+  },
+  "interest": 0.3,
+  "amountOfPayments": 3,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ab05b7df08e35c8c4e7300"
+  },
+  "accountNumber": "886356",
+  "type": "withdrawal",
+  "amount": 50,
+  "date": {
+    "$date": "2023-07-09T19:08:39.268Z"
+  },
+  "interest": 0,
+  "amountOfPayments": 0,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ab05c0df08e35c8c4e7302"
+  },
+  "accountNumber": "886356",
+  "type": "deposit",
+  "amount": 300,
+  "date": {
+    "$date": "2023-07-09T19:08:48.865Z"
+  },
+  "interest": 0,
+  "amountOfPayments": 0,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ab05d2df08e35c8c4e7304"
+  },
+  "accountNumber": "886356",
+  "type": "loan",
+  "amount": 200000,
+  "date": {
+    "$date": "2023-07-09T19:09:06.448Z"
+  },
+  "interest": 3,
+  "amountOfPayments": 7,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ab0870df08e35c8c4e7307"
+  },
+  "accountNumber": "886356",
+  "type": "withdrawal",
+  "amount": 20,
+  "date": {
+    "$date": "2023-07-09T19:20:16.791Z"
+  },
+  "interest": 0,
+  "amountOfPayments": 0,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ab0a56df08e35c8c4e730a"
+  },
+  "accountNumber": "889273",
+  "type": "withdrawal",
+  "amount": 33,
+  "date": {
+    "$date": "2023-07-09T19:28:22.289Z"
+  },
+  "interest": 0,
+  "amountOfPayments": 0,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ab0adadf08e35c8c4e730d"
+  },
+  "accountNumber": "33",
+  "type": "withdrawal",
+  "amount": 3,
+  "date": {
+    "$date": "2023-07-09T19:30:34.304Z"
+  },
+  "interest": 0,
+  "amountOfPayments": 0,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ab0b0bdf08e35c8c4e730f"
+  },
+  "accountNumber": "888345",
+  "type": "loan",
+  "amount": 5000,
+  "date": {
+    "$date": "2023-07-09T19:31:23.517Z"
+  },
+  "interest": 3,
+  "amountOfPayments": 0,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ab15b8df08e35c8c4e731c"
+  },
+  "accountNumber": "888345",
+  "type": "loan",
+  "amount": 3000,
+  "date": {
+    "$date": "2023-07-09T20:16:56.553Z"
+  },
+  "interest": 3,
+  "amountOfPayments": 5,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ab15e3df08e35c8c4e731f"
+  },
+  "accountNumber": "886356",
+  "type": "loan",
+  "amount": 30000,
+  "date": {
+    "$date": "2023-07-09T20:17:39.750Z"
+  },
+  "interest": 5,
+  "amountOfPayments": 20,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ab16c5df08e35c8c4e7323"
+  },
+  "accountNumber": "888345",
+  "type": "withdrawal",
+  "amount": 40,
+  "date": {
+    "$date": "2023-07-09T20:21:25.270Z"
+  },
+  "interest": 0,
+  "amountOfPayments": 0,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ab16cedf08e35c8c4e7325"
+  },
+  "accountNumber": "888345",
+  "type": "deposit",
+  "amount": 40,
+  "date": {
+    "$date": "2023-07-09T20:21:34.534Z"
+  },
+  "interest": 0,
+  "amountOfPayments": 0,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ab16cfdf08e35c8c4e7327"
+  },
+  "accountNumber": "888345",
+  "type": "deposit",
+  "amount": 40,
+  "date": {
+    "$date": "2023-07-09T20:21:35.785Z"
+  },
+  "interest": 0,
+  "amountOfPayments": 0,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ab16d0df08e35c8c4e7329"
+  },
+  "accountNumber": "888345",
+  "type": "deposit",
+  "amount": 40,
+  "date": {
+    "$date": "2023-07-09T20:21:36.251Z"
+  },
+  "interest": 0,
+  "amountOfPayments": 0,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ab16d0df08e35c8c4e732b"
+  },
+  "accountNumber": "888345",
+  "type": "deposit",
+  "amount": 40,
+  "date": {
+    "$date": "2023-07-09T20:21:36.584Z"
+  },
+  "interest": 0,
+  "amountOfPayments": 0,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ab16d0df08e35c8c4e732d"
+  },
+  "accountNumber": "888345",
+  "type": "deposit",
+  "amount": 40,
+  "date": {
+    "$date": "2023-07-09T20:21:36.901Z"
+  },
+  "interest": 0,
+  "amountOfPayments": 0,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ab16d1df08e35c8c4e732f"
+  },
+  "accountNumber": "888345",
+  "type": "deposit",
+  "amount": 40,
+  "date": {
+    "$date": "2023-07-09T20:21:37.201Z"
+  },
+  "interest": 0,
+  "amountOfPayments": 0,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ab16d1df08e35c8c4e7331"
+  },
+  "accountNumber": "888345",
+  "type": "deposit",
+  "amount": 40,
+  "date": {
+    "$date": "2023-07-09T20:21:37.483Z"
+  },
+  "interest": 0,
+  "amountOfPayments": 0,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ab16d2df08e35c8c4e7333"
+  },
+  "accountNumber": "888345",
+  "type": "deposit",
+  "amount": 40,
+  "date": {
+    "$date": "2023-07-09T20:21:38.568Z"
+  },
+  "interest": 0,
+  "amountOfPayments": 0,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ab16d8df08e35c8c4e7335"
+  },
+  "accountNumber": "888345",
+  "type": "deposit",
+  "amount": 600,
+  "date": {
+    "$date": "2023-07-09T20:21:44.452Z"
+  },
+  "interest": 0,
+  "amountOfPayments": 0,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ab16e9df08e35c8c4e7337"
+  },
+  "accountNumber": "888345",
+  "type": "loan",
+  "amount": 600,
+  "date": {
+    "$date": "2023-07-09T20:22:01.587Z"
+  },
+  "interest": 0,
+  "amountOfPayments": 0,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ab20f5df08e35c8c4e7345"
+  },
+  "accountNumber": "888345",
+  "type": "withdrawal",
+  "amount": 6,
+  "date": {
+    "$date": "2023-07-09T21:04:53.756Z"
+  },
+  "interest": 0,
+  "amountOfPayments": 0,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ab236ddf08e35c8c4e734f"
+  },
+  "accountNumber": "33",
+  "type": "deposit",
+  "amount": 70,
+  "date": {
+    "$date": "2023-07-09T21:15:25.575Z"
+  },
+  "interest": 0,
+  "amountOfPayments": 0,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ab2387df08e35c8c4e7351"
+  },
+  "accountNumber": "33",
+  "type": "loan",
+  "amount": 7000,
+  "date": {
+    "$date": "2023-07-09T21:15:51.540Z"
+  },
+  "interest": 3,
+  "amountOfPayments": 5,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ab2391df08e35c8c4e7353"
+  },
+  "accountNumber": "33",
+  "type": "withdrawal",
+  "amount": 300,
+  "date": {
+    "$date": "2023-07-09T21:16:01.507Z"
+  },
+  "interest": 3,
+  "amountOfPayments": 5,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ab23b9df08e35c8c4e7356"
+  },
+  "accountNumber": "33",
+  "type": "loan",
+  "amount": 300000,
+  "date": {
+    "$date": "2023-07-09T21:16:41.710Z"
+  },
+  "interest": 3,
+  "amountOfPayments": 6,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ab26be0ed0fbefb2271177"
+  },
+  "accountNumber": "33",
+  "type": "withdrawal",
+  "amount": 77777,
+  "date": {
+    "$date": "2023-07-09T21:29:34.812Z"
+  },
+  "interest": 0,
+  "amountOfPayments": 0,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ab26c60ed0fbefb2271179"
+  },
+  "accountNumber": "33",
+  "type": "deposit",
+  "amount": 77777,
+  "date": {
+    "$date": "2023-07-09T21:29:42.414Z"
+  },
+  "interest": 0,
+  "amountOfPayments": 0,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64ab26d50ed0fbefb227117b"
+  },
+  "accountNumber": "33",
+  "type": "loan",
+  "amount": 77777,
+  "date": {
+    "$date": "2023-07-09T21:29:57.245Z"
+  },
+  "interest": 7,
+  "amountOfPayments": 77,
+  "__v": 0
+}]

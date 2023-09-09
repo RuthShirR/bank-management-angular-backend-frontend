@@ -1,0 +1,50 @@
+<form [formGroup]="operationForm" (ngSubmit)="performOperation()">
+  <div class="form-group">
+    <label for="accountNumber">Account Number:</label>
+    <input type="text" id="accountNumber" formControlName="accountNumber"
+      [ngClass]="{ 'is-invalid': submitted && f['accountNumber'].invalid }">
+    <div class="invalid-feedback" *ngIf="submitted && f['accountNumber'].invalid">
+      Account Number is required.
+    </div>
+  </div>
+  <div class="form-group">
+    <label for="type">Operation Type:</label>
+    <select id="type" formControlName="type">
+      <option value="withdrawal">Withdrawal</option>
+      <option value="deposit">Deposit</option>
+      <option value="loan">Loan</option>
+    </select>
+  </div>
+  <div *ngIf="operationForm.get('type')?.value === 'withdrawal' || operationForm.get('type')?.value === 'deposit'"
+    class="form-group">
+    <label for="amount">Amount:</label>
+    <div class="input-with-symbol">
+      <input type="number" id="amount" formControlName="amount">
+      <span class="input-symbol">₪</span>
+    </div>
+  </div>
+  <div *ngIf="operationForm.get('type')?.value === 'loan'" class="form-group">
+    <label for="amount">Amount:</label>
+    <div class="input-with-symbol">
+      <input type="number" id="amount" formControlName="amount">
+      <span class="input-symbol">₪</span>
+    </div>
+    <br/>
+    <div class="input-with-symbol">
+      <label for="amount">Interest:</label>
+      <input type="number" id="interest" formControlName="interest">
+      <span class="input-symbol">%</span>
+    </div>
+    <br/>
+    <label for="amountOfPayments">Amount of Payments:</label>
+    <input type="number" id="amountOfPayments" formControlName="amountOfPayments"> 
+  </div>
+  
+  <button type="submit" [disabled]="operationForm.invalid">Perform Operation</button>
+  <p>{{ operationMessage }}</p>
+</form>
+
+
+
+  
+  

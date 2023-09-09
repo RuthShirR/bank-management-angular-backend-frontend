@@ -1,0 +1,23 @@
+<div class="container">
+  <h1>Operations</h1>
+  <div>
+    <label for="accountNumber">Account Number:</label>
+    <input type="text" id="accountNumber" [(ngModel)]="accountNumber">
+    <button (click)="getOperations()">Get Operations</button>
+  </div>
+  <div *ngIf="operations" class="operation-boxes">
+    <div *ngFor="let operation of operations" class="operation-box">
+      <div class="operation-type">{{ operation.type | uppercase }}</div>
+      <div class="operation-details">
+        <div>Date: {{ operation.date | date }}</div>
+        <div>Amount: {{ operation.amount | currency:'ILS' }}</div>
+        <div *ngIf="operation.type === 'loan'">Interest: {{ operation.interest | percent }}</div>
+        <div *ngIf="operation.type === 'loan'">Payments: {{ operation.amountOfPayments}}</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
